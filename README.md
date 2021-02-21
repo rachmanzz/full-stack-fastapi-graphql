@@ -1,3 +1,5 @@
+![TravisCI](https://travis-ci.org/matthewchung74/full-stack-fastapi-graphql.svg?branch=main)
+
 # Full Stack FastAPI with GraphQL - Base Project Generator
 
 Generate a backend and frontend (wip) stack using Python, including interactive GraphQL API documentation.
