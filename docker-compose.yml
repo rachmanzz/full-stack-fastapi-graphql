@@ -21,4 +21,12 @@ services:
       - ./backend:/app
     env_file:
       - .env
+    image: backend_base
+  test:
+    image: backend_base
+    command: python -m pytest
+    links:
+      - db
+    env_file:
+      - .env
 
