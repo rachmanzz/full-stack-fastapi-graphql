@@ -5,7 +5,7 @@ WORKDIR /app/
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-COPY ./app/pyproject.toml ./app/poetry.lock* /app/
+COPY pyproject.toml poetry.lock* /app/
 COPY  ./app/alembic.ini /app/
 
 RUN pip install 'poetry==1.1.4'.

@@ -1,0 +1,47 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Item {
+  title: String
+  description: String
+  id: Int
+  ownerId: Int
+}
+
+input ItemCreate {
+  title: String!
+  description: String!
+}
+
+type Mutation {
+  userCreate(user: UserCreate!): Success
+  authUser(user: UserCreate!): Token
+  itemCreate(item: ItemCreate!): Success
+}
+
+type Query {
+  users: [User]
+}
+
+type Success {
+  id: String
+  success: Boolean
+}
+
+type Token {
+  accessToken: String
+  tokenType: String
+}
+
+type User {
+  email: String
+  id: Int
+  items: [Item]
+}
+
+input UserCreate {
+  email: String!
+  password: String!
+}
