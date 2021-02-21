@@ -4,10 +4,10 @@ Generate a backend and frontend (wip) stack using Python, including interactive 
 
 ### Interactive API documentation
 
-wip
+This example shows the postman environment, api, and an example of getting an auth token and creating an item.
 
-### Alternative API documentation
-wip
+![Postman animation](postman640.gif)
+
 
 ### Dashboard Login
 wip
