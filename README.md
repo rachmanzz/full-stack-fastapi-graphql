@@ -1,4 +1,4 @@
-![TravisCI](https://travis-ci.org/matthewchung74/full-stack-fastapi-graphql.svg?branch=main)
+[![Build Status](https://travis-ci.org/matthewchung74/full-stack-fastapi-graphql.svg?branch=main)](https://travis-ci.org/matthewchung74/full-stack-fastapi-graphql)
 
 # Full Stack FastAPI with GraphQL - Base Project Generator
 
